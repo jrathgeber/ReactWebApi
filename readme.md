@@ -1,3 +1,5 @@
-# Vanilla JavaScript App
+# ReactWeb (MechWeb) backend API. 
 
-This repo is used as a starter for a _very basic_ HTML web application using no front-end frameworks.
+Collect the data from the various source APIs.
+
+Hopefully get around some of these CORS issues !
