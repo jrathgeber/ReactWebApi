@@ -6,6 +6,8 @@
     "start": "func start",
     "test": "echo \"No tests yet...\""
   },
-  "dependencies": {},
+  "dependencies": {
+    "iexcloud_api_wrapper": "^1.1.5"
+  },
   "devDependencies": {}
 }
