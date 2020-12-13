@@ -1,9 +1,3 @@
-console.log("Hello " + process.env.IEXCLOUD_PUBLIC_KEY );
-
-//process.env.IEXCLOUD_PUBLIC_KEY = "pk_2c691d5dd102497393020fadee099148"
-//process.env.IEXCLOUD_SECRET_KEY = "sk_652a78525ee442a3adb15c6e596151ee"
-//process.env.IEXCLOUD_API_VERSION = "stable"
-
 const iex = require('iexcloud_api_wrapper'); // gets auth from .env automatically
 
 module.exports = async function (context, req) {
