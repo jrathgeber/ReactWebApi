@@ -25,6 +25,7 @@ module.exports = async function (context, req) {
     const hello = await getMoverData().gainers;
 
     context.res = {
+      
      // status: 200, /* Defaults to 200 */
      //   body: {
      //       text: "Hello from the IEX"
