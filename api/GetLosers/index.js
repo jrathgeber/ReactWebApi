@@ -7,8 +7,8 @@ module.exports = async function (context, req) {
 
     const getMoverData = async() => {
         try {
-          const gainers = await iex.list('losers');
-          console.log(gainers);
+          const losers = await iex.list('losers');
+          console.log(losers);
         }
         catch(error) {
           console.error(`Could not get data: ${error}`);
@@ -22,7 +22,7 @@ module.exports = async function (context, req) {
         ? "Hello, " + name + ". This HTTP triggered function executed successfully."
         : "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.";
 
-    const hello = await getMoverData().gainers;
+    const hello = await getMoverData().losers;
 
     context.res = {
       
